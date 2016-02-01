@@ -1,0 +1,17 @@
+{
+  "name": "postcss-sprites-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "damujiangr",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
+    "postcss-sprites": "^3.0.3"
+  }
+}

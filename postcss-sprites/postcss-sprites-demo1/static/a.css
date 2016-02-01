@@ -1,0 +1,12 @@
+.a-style{
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: url(img/icon_fujin.png) no-repeat;
+}
+.a-sub-style{
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: url(img/gaoxin.png) no-repeat;
+}
