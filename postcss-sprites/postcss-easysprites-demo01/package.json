@@ -1,0 +1,17 @@
+{
+  "name": "postcss-easysprites-demo01",
+  "version": "1.0.0",
+  "description": "combine images to sprites, based on their image.png#hash and aspect ratio (@2x).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "damujiangr",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
+    "postcss-easysprites": "^0.1.3"
+  }
+}
