@@ -5,7 +5,17 @@ var del = require('del');
 gulp.task('server',['views','static'],function(){
   browserSync.init({
     server:{
-      baseDir:'build'
+      //根路径
+      baseDir:'build/views',
+      //建立路由
+      routes:{
+        '/third':'views/sec'
+      },
+      //中间件
+      middleware: function(req,res,next){
+        console.log('hi middleware');
+        next();
+      }
     }
   });
   //监听变化并reload
