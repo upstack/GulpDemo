@@ -1,0 +1,20 @@
+{
+  "name": "gulp.spritesmith-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "damujiangr",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-csso": "^1.0.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp.spritesmith": "^6.1.0",
+    "merge-stream": "^1.0.0",
+    "vinyl-buffer": "^1.0.0"
+  }
+}
